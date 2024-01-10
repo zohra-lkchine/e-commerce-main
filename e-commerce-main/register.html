@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Store |Register</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="register.styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-contents">
+          <a class="logo" href="index.html">.sneakers</a>
+          <nav class="navlinks">
+            <a href="login.html">Sign In</a><a href="register.html">Register</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Login Form Section ............................................................................ -->
+    <section class="form-section">
+      <h2 class="login-title">Register Page</h2>
+      <form>
+        <label for="username">Username <span>*</span></label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter your username"
+          required
+        />
+        <label for="username">Email <span>*</span></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <label for="password">Password <span>*</span></label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
+        <span>Have an account ? <a href="login.html">Login In</a></span>
+
+        <button type="submit" class="submit-btn" id="register">
+          REGISTER
+          <span
+            ><svg
+              width="20px"
+              height="20px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="10"
+                cy="6"
+                r="4"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+              <path
+                d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <span>@lkchine Zohra. All rights reserved. 2023.</span>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="register.js"></script>
+  </body>
+</html>
